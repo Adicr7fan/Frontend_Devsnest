@@ -1,0 +1,37 @@
+.circle {
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background-color: red;
+  position: relative;
+}
+
+.hour{
+  background-color:black;
+     height:3px;
+     width: 80px;
+     position: absolute;
+     top: 90px;
+     right:143px;
+     transform: rotate(70deg)
+}   
+
+.min {
+  height: 4px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 125px;
+  left: 125px;
+}
+
+.sec {
+  height: 2px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  transform: rotate(45deg);
+}
